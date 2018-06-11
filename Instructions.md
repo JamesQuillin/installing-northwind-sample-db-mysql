@@ -49,7 +49,7 @@ Which returns something like:
 1 row in set (0.00 sec)
 ```
 
-Now we create the tables and then insert all the data in. Head over to the data and tables file (raw file [here](https://raw.githubusercontent.com/JamesQuillin/installing-northwind-sample-db-mysql/master/data-and-tables.txt)) and you can just copy/paste the whole thing (it's just a bunch of sql statements to create tables and insert data). Depending on how the paste works it might execute all of the statements except the last when you paste them since there are line breaks, so make sure you hit [enter] to run the last statement too (the last one is just a SHOW TABLES; statement). To see if it worked try something like:
+Now we create the tables and then insert all the data in. Head over to the data and tables file (raw file [here](https://raw.githubusercontent.com/JamesQuillin/installing-northwind-sample-db-mysql/master/data-and-tables.txt)) and you can just copy/paste the whole thing (it's just a bunch of SQL statements to create tables and insert data). Depending on how the paste works it might execute all of the statements except the last when you paste them since there are line breaks, so make sure you hit [enter] to run the last statement too (the last one is just a SHOW TABLES; statement). To see if it worked try something like:
 
 ```
 SELECT first_name, last_name, company FROM customers;
